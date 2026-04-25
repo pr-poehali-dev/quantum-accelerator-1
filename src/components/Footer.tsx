@@ -40,7 +40,8 @@ export default function Footer() {
               <img
                 src="https://cdn.poehali.dev/projects/b45585d6-d5ca-4ffd-9da3-76a6b3051ea6/bucket/d0a8c286-ca75-4183-b15a-316bb19b2ebf.png"
                 alt="Такси Ракета"
-                className="h-16 sm:h-20 lg:h-28 w-auto mt-4 sm:mt-6 lg:mt-10"
+                className="h-24 sm:h-32 lg:h-44 w-auto mt-4 sm:mt-6 lg:mt-10"
+                style={{ mixBlendMode: "screen" }}
               />
               <p className="text-white/50 text-sm sm:text-base">{new Date().getFullYear()} Такси Ракета. Все права защищены.</p>
             </div>

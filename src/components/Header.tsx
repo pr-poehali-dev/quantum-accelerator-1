@@ -10,7 +10,8 @@ export default function Header({ className }: HeaderProps) {
           <img
             src="https://cdn.poehali.dev/projects/b45585d6-d5ca-4ffd-9da3-76a6b3051ea6/bucket/d0a8c286-ca75-4183-b15a-316bb19b2ebf.png"
             alt="Такси Ракета"
-            className="h-10 w-auto"
+            className="h-16 w-auto"
+            style={{ mixBlendMode: "screen" }}
           />
         </a>
         <nav className="flex gap-8">
