@@ -33,8 +33,24 @@ export default function Promo() {
 
       <div className="absolute bottom-12 right-6 z-10 text-right">
         <p className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg z-10 mb-6">
-          Работаем круглосуточно, без выходных. Свяжитесь с нами любым удобным способом.
+          Самое безопасное такси в городе. Работаем круглосуточно, без выходных.
         </p>
+
+        <div className="flex flex-col gap-3 mb-6">
+          <div className="text-right">
+            <p className="text-white font-semibold text-sm sm:text-base">Шалин Александр Алексеевич</p>
+            <p className="text-white/50 text-xs sm:text-sm uppercase tracking-wide">Генеральный директор</p>
+          </div>
+          <div className="text-right">
+            <p className="text-white font-semibold text-sm sm:text-base">Сорокин Алексей Алексеевич</p>
+            <p className="text-white/50 text-xs sm:text-sm uppercase tracking-wide">Заместитель директора</p>
+          </div>
+          <div className="text-right">
+            <p className="text-white font-semibold text-sm sm:text-base">Иванов Евпатий Коловрат</p>
+            <p className="text-white/50 text-xs sm:text-sm uppercase tracking-wide">Руководитель службы безопасности</p>
+          </div>
+        </div>
+
         <div className="flex flex-col gap-2 text-white/80 text-sm sm:text-base">
           <a href="tel:88000000000" className="hover:text-white transition-colors">📞 8 (800) 000-00-00 (бесплатно)</a>
           <a href="mailto:info@taxi.ru" className="hover:text-white transition-colors">✉️ info@taxi.ru</a>
