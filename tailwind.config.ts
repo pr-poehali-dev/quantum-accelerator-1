@@ -22,6 +22,9 @@ export default {
 				sans: ['Montserrat', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
 			},
 			colors: {
+				'brand-purple': '#7C3AED',
+				'brand-blue': '#38BDF8',
+				'brand-dark': '#1a1025',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',

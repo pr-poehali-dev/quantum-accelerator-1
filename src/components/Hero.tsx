@@ -46,7 +46,7 @@ export default function Hero() {
             placeholder="Куда"
             className="flex-1 px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/30 text-white placeholder-white/60 outline-none focus:border-white transition-colors"
           />
-          <button className="flex items-center justify-center gap-2 bg-yellow-400 text-black px-6 py-3 font-bold uppercase tracking-wide hover:bg-yellow-300 transition-colors cursor-pointer whitespace-nowrap">
+          <button className="flex items-center justify-center gap-2 bg-gradient-to-r from-[#7C3AED] to-[#38BDF8] text-white px-6 py-3 font-bold uppercase tracking-wide hover:opacity-90 transition-opacity cursor-pointer whitespace-nowrap">
             <Icon name="Car" size={18} />
             Заказать
           </button>
